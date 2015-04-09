@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// La différence entre new et override : new cache l'implémentation de la mere. 
-/// Si on défini un objet avec le type de la mere alors c'est la methode mere qui sera appelée sans passer par la fille.
-/// Je préfère override car on peut définir des objet avec le type mère (générique) et auqnd même appeler les méthodes filles.
-/// </summary>
+// 
+// La différence entre new et override : new cache l'implémentation de la mere. 
+// Si on défini un objet avec le type de la mere alors c'est la methode mere qui sera appelée sans passer par la fille.
+// Je préfère override car on peut définir des objet avec le type mère (générique) et auqnd même appeler les méthodes filles.
+// 
 namespace Héritage
 {
     class Fille1 : Mere
