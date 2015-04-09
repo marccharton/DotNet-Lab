@@ -12,6 +12,7 @@ namespace Tests_Reflexion
         static void Main(string[] args)
         {
             Console.WriteLine("\n======== LIB RELEXION ========");
+            sdcsdc
             Assembly myLib = LoadAssembly();
             Dictionary<String, Type> types = GetTypes(myLib);
             GetMembers(types);
