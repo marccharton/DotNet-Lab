@@ -20,13 +20,13 @@ namespace LibReflexion
 
     public class Class2
     {
-        public Person gens;
+        public Person Gens;
 
         public void run()
         {
-            gens = new Person();
-            gens.Prenom = "Jean Jaques";
-            gens.Nom = "Chalumeaux";
+            Gens = new Person();
+            Gens.Prenom = "Jean Jaques";
+            Gens.Nom = "Chalumeaux";
         }
     }
 }

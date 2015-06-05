@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Héritage
 {
-    interface Interface
+    interface IInterface
     {
         void Run();
     }

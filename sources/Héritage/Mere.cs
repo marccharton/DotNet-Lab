@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Héritage
 {
-    class Mere : Interface
+    class Mere : IInterface
     {
         protected StringBuilder _logger;
 
