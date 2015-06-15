@@ -11,13 +11,13 @@ namespace Tests_Reflexion
     {
         static void Main(string[] args)
         {
-            var launcher = new InitRefletion();
+            var launcher = new DemoRefletion();
             launcher.Run();
             Console.ReadKey();
         }
     }
 
-    class InitRefletion
+    class DemoRefletion
     {
         internal Assembly LoadAssembly()
         {
